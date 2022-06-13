@@ -85,3 +85,5 @@
 
  Syntax:
  >man "tên lệnh"
+
+### Links document (https://www.hostinger.com/tutorials/linux-commands).
