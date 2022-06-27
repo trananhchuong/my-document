@@ -18,6 +18,8 @@ Tại docosan em làm thuần về Front-end developer, trong quá trình làm v
  - Research và giải quyết vấn đề cách độc lập
  - Làm việc cọ sát với team khác như PM, CS để hiểu rõ hơn về sản phẩm và nhu cấu của họ đứng từ góc nhìn của họ
  - Tham gia phân tích đóng góp cho sản phẩm (xem video phân tích hành vi người dùng từ đó có giải pháp, review chức năng, function mới sắp được triển khai)
+
+
 Kiến thức
 Kĩ năng
 Kinh nghiệm

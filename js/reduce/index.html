@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reduce</title>
+  </head>
+  <body>
+    <h1>Demo Reduce</h1>
+
+    <script>
+      const array = [1, 2, 3, 4, 5];
+
+      const arrayObject = [
+        {
+          name: "chuong",
+          id: 1,
+          age: 25,
+        },
+        {
+          name: "trang",
+          id: 2,
+          age: 18,
+        },
+        {
+          name: "phuc",
+          id: 3,
+          age: 22,
+        },
+      ];
+
+      const myObj = arrayObject.reduce((accumulate, current) => {
+        return {
+          ...accumulate,
+          [current.name]: current,
+        };
+      }, {});
+
+      const myArray = Object.values(myObj).reduce((accumulate, current) => {
+        return [
+          ...accumulate,
+          {
+            ...current,
+          },
+        ];
+      }, []);
+    </script>
+  </body>
+</html>
