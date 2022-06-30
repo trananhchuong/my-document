@@ -1,2 +1,8 @@
-## Định nghĩa:
-là một hàm ghi nhớ được nơi nó được tạo ra và có thể truy cập được một biến bên ngoài phạm vi của nómn
+## Closure
+>Là hàm có thể ghi nhớ nơi tạo ra nó & truy cập được biến bên ngoài phạm vi của nó
+
+- Ứng dụng:
+  - Giúp viết code ngắn hơn
+  - Biểu diễn, ứng dụng tính **Private** trong OOP
+- Lưu ý:
+  - Biến được tham chiếu trong closure sẽ **không** được xoá khỏi bộ nhớ
